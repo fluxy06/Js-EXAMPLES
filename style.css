@@ -1,0 +1,117 @@
+body {
+    margin: 0px 0px 0px 0px;
+}
+.midl {
+    width: 100%;
+    height: 956px;
+    background-image: url("back.png");
+    outline: none;
+    pointer-events: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #323233;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* #towns{
+    display: grid;
+    height: 40px;
+} */
+
+#logo {
+    width: 76.93px;
+    height: 39.02px;
+    pointer-events: none;
+    -webkit-animation: none;
+    margin-left: 36.5px;
+}
+
+button {
+    border: 0px white solid;
+    background-color: #323233;
+    color: white;
+    transition: 0.6s ease-out;
+    motion: none;
+    margin-right: 33px;
+}
+
+
+button:hover {
+    border: 0px white solid;
+    background-color: #323233;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    motion: none;
+    margin-right: 33px;
+}
+
+#town1 {
+    display: flex;
+    align-items: center;
+}
+
+#ttown2 {
+    display: flex;
+    align-items: center;
+}
+#num1 {
+    color: white;
+    font-size: 13px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+}
+
+#num {
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+#town {
+    color: #979799;
+    margin-bottom: -20px;
+}
+
+#town2 {
+    color: #979799;
+}
+
+#towns {
+    margin-right: 36.5px;
+    align-items: center;
+}
+
+.mid-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#les {
+    color: white;
+    font-family: sans-serif;
+    font-size: 80px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#les2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-top: -50px;
+    text-align: center;
+}
