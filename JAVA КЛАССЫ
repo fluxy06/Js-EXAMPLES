@@ -1,0 +1,37 @@
+public class Main {
+    public static void main(String[] args) {
+        Book book = new Book();
+        book.title = "Думай как миллионер";
+        book.author = "Стивен Хоккинс";
+        book.isAvailable = true;
+        book.year = 2013;
+
+        book.getBookInfo();
+        book.returnBook("Думай как миллионер123");
+    }
+}
+
+
+class Book {
+    String title;
+    String author;
+    int year;
+    boolean isAvailable;
+
+
+    public void getBookInfo() {
+        System.out.println(title + author + year + isAvailable);
+    }
+
+    public static void borrowBook() {
+
+    }
+
+    public void returnBook(String name) {
+        if (name == title) {
+            System.out.println("В наличии   " + name);
+        }else {
+            System.out.println(name + "--- Отсутствует в библиотеке");
+        }
+    }
+}
